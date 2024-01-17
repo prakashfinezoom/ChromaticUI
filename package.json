@@ -1,0 +1,27 @@
+{
+  "name": "chromatic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-archive-storybook": "build-archive-storybook",
+    "chromatic": "npx chromatic --project-token=chpt_eef68d10244d9ad"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.0",
+    "@types/node": "^20.11.4",
+    "chromatic": "^10.3.0"
+  },
+  "dependencies": {
+    "@chromaui/archive-storybook": "^0.0.18",
+    "@chromaui/test-archiver": "^0.0.56",
+    "@storybook/addon-essentials": "^7.6.8",
+    "@storybook/cli": "^7.6.8",
+    "@storybook/server-webpack5": "^7.6.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
